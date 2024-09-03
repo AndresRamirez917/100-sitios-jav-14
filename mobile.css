@@ -1,0 +1,71 @@
+.navbar .logo {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.showcase .card-1, .card-2, .card-3, .card-4 {
+    width: 100%;
+}
+
+#fitness img {
+    float: none;
+    width: 70%;
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+}
+
+#fitness .text-rigth {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#swimming img {
+    float: none;
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#swimming .text-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#spa img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    width: 70%;
+}
+
+#spa .text-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#golf img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    width: 70%;
+}
+
+#golf .text-rigth {
+    float: none;
+    width: 100%;
+    text-align: center;
+    }
