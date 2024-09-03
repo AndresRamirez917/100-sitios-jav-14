@@ -44,33 +44,33 @@ async function getData(){
         }
     })
 
-    const form = document.createRange().createContextualFragment(`
+    // const form = document.createRange().createContextualFragment(`
         
-        <section id="contact">
-        <div class="container">
-            <h2>Contact us</h2>
-            <form action="">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input id="nombre" type="text" class="form-control" name="name" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="name">Email</label>
-                    <input id="email" type="text" class="form-control" name="name" placeholder="">
-                </div>
-                <div class="form-group">
-                    <label for="name">Message</label>
-                    <textarea name="" id="mensaje" cols="30" rows="10" class="form-control" placeholder=""></textarea>
-                </div>
-                <button id="btn-validar" class="btn btn-light">Submit</button>
-            </form>
-        </div>
-    </section>
+    //     <section id="contact">
+    //     <div class="container">
+    //         <h2>Contact us</h2>
+    //         <form action="">
+    //             <div class="form-group">
+    //                 <label for="name">Name</label>
+    //                 <input id="nombre" type="text" class="form-control" name="name" placeholder="">
+    //             </div>
+    //             <div class="form-group">
+    //                 <label for="name">Email</label>
+    //                 <input id="email" type="text" class="form-control" name="name" placeholder="">
+    //             </div>
+    //             <div class="form-group">
+    //                 <label for="name">Message</label>
+    //                 <textarea name="" id="mensaje" cols="30" rows="10" class="form-control" placeholder=""></textarea>
+    //             </div>
+    //             <button id="btn-validar" class="btn btn-light">Submit</button>
+    //         </form>
+    //     </div>
+    // </section>
         
-        `)
+    //     `)
 
-        const bodys = document.querySelector('body')
-        bodys.append(form)
+    //     const bodys = document.querySelector('body')
+    //     bodys.append(form)
 
 
     const footer = document.createRange().createContextualFragment(`
