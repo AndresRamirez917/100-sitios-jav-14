@@ -156,6 +156,10 @@ button:hover {
     height: 100px;
 }
 
+.card-row .card {
+    margin-left: 10px;
+}
+
 .card-row .card-1 img {
     margin: 0 auto;
     display: block;
@@ -215,6 +219,7 @@ button:hover {
 #fitness .text-rigth {
     float: right;
     width: 70%;
+    text-align: justify;
 }
 
 #swimming img {
@@ -222,32 +227,34 @@ button:hover {
     width: 10%;
     margin-bottom: 1rem;
 }
-
-#swiming .text-left {
+#swimming .text-rigth {
     float: left;
     width: 70%;
+    text-align: justify;
 }
 
 #spa img {
-    float: right;
+    float: left;
     width: 10%;
     margin-bottom: 1rem;
 }
 
 #spa .text-rigth {
-    float: left;
+    float: right;
     width: 70%;
+    text-align: justify;
 }
 
 #golf img {
-    float: left;
+    float: right;
     width: 10%;
     margin-bottom: 1rem;
 }
 
-#golf .text-left {
-    float: right;
+#golf .text-rigth {
+    float: left;
     width: 70%;
+    text-align: justify;
 }
 
 #contact form {
