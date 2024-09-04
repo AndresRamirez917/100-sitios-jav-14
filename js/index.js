@@ -3,33 +3,34 @@ async function getData(){
     const products = await result.json();
     const arrTitle = ["Fitness", "Swimming", "Spa", "Golf"];
     products.forEach(element => {
-        if(element.id = 1 && element.id < 2){
-            for(i = 0; i < arrTitle.length; i++){
-                const card = document.createRange().createContextualFragment(`
-                    
-                        <div class="card card-1">
-                            <h3>${arrTitle[i]}</h3>
-                            <img src="${element.image}" alt="">
-                        </div>
-                    
-                    `)
-                    const card_row = document.querySelector('.card-row');
-                    card_row.append(card)
-            }
+        for(j = 0; j <= 4; j++){
+                if(element.id == j){
+                    const card = document.createRange().createContextualFragment(`
+                        
+                            <div class="card card-1">
+                                <h3>${arrTitle[j]}</h3>
+                                <img src="${element.image}" alt="">
+                            </div>
+                        
+                        `)
+                        const card_row = document.querySelector('.card-row');
+                        card_row.append(card)
+                }
+                
 
         }
     });
 
    const arrSections = ["fitness", "swimming", "spa", "golf"]
     products.forEach(element => {
-        for(i = 0; i < arrSections.length; i++){
-            if(element.id == 1 ){
+        for(i = 0; i <= 4; i++){
+            if(element.id == i ){
                 const fitness = document.createRange().createContextualFragment(`
                     
-                      <!-- ${arrSections[i]} -->
-         <section id=${arrSections[i]}>
+                      <!-- ${arrSections[i-1]} -->
+         <section id=${arrSections[i-1]}>
             <div class="container">
-                <h2>${arrSections[i]}</h2>
+                <h2>${arrSections[i-1]}</h2>
                 <img class="activity-img" src="${element.image}" alt="">
                 <p class="text-rigth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo numquam sit non nobis voluptatum ipsam qui quasi ab tempora, est quaerat obcaecati at eaque odit, consequatur aspernatur sint. Autem dignissimos tenetur eligendi inventore, corrupti veniam aliquid impedit doloremque quam quisquam! Similique repellendus obcaecati ab voluptas delectus optio facere totam deleniti.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste placeat non corporis, temporibus dolorum, error incidunt quas doloremque magnam sed maiores. Vero dolorem quis mollitia, exercitationem, quam illo veritatis labore sint quaerat aliquam nobis neque debitis! A reiciendis laborum, minus iste ullam modi, nam cum, cumque fugiat earum expedita quisquam.
